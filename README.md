@@ -5,8 +5,6 @@ Steganography
 -------------
 [Steganography](https://en.wikipedia.org/wiki/Steganography) is the practice of concealing a file, message, image, or video within another file, message, image, or video.
 
-![https://buzzrobot.com/hiding-images-using-ai-deep-steganography-b7726bd58b06](steganography.png)
-
 Problem
 -------
 Hide a colorful image into another colorful image, then reveal the secret image as much as possible
