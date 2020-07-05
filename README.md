@@ -32,7 +32,7 @@ Pytorch, Numpy, Pillow, skimage
 Results
 -------
 ### Training Data
-Rows corresponds to: Secret, Cover, Hidden and Revealed Images
+Rows correspond to: Secret, Cover, Hidden and Revealed Images
 
 ![step0](reports/figures/step0.png)
 <p style="text-align:center">Step 0</p>
@@ -47,22 +47,22 @@ Rows corresponds to: Secret, Cover, Hidden and Revealed Images
 <p style="text-align:center">Epoch 10</p>
 
 ### Test Data
-Rows corresponds to Secret, Cover, Hidden and Revealed Images
+Rows correspond to Secret, Cover, Hidden and Revealed Images
 
 ![step0](reports/figures/testdata.png)
 
 #### Hidden-Cover
-Rows corresponds to Hidden, Cover, Hidden-Cover, 10*(Hidden-Cover)
+Rows correspond to Hidden, Cover, Hidden-Cover, 10*(Hidden-Cover)
 
 ![hidden_cover](reports/figures/hidden_cover.png)
 
 #### Hidden-Secret
-Rows corresponds to Hidden, Secret, Hidden-Secret, 10*(Hidden-Secret)
+Rows correspond to Hidden, Secret, Hidden-Secret, 10*(Hidden-Secret)
 
 ![hidden_cover](reports/figures/hidden_hide.png)
 
 #### Reveal-Secret
-Rows corresponds to Reveal, Secret, Reveal-Secret, 10*(Reveal-Cover)
+Rows correspond to Reveal, Secret, Reveal-Secret, 10*(Reveal-Cover)
 
 ![hidden_cover](reports/figures/reveal_secret.png)
 
