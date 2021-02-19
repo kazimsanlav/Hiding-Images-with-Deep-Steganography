@@ -14,7 +14,7 @@ Model
 ![Model Archtecture](reports/figures/model_diag.png)
 [HidingNet](HidingNet.py) consists of hidingnet and revealing net.  
 Hidingnet contains skip connections to preserve spatial features.
-Revealnet consists of basic CNN layers and BatchNorm layers.
+Revealnet consists of basic CNN layers and BatchNorm layers.  
 See [paper](reports/CMPE_58V_Project_Final_Report.pdf) for more details.
 
 Dataset
