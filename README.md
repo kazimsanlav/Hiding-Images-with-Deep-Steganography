@@ -36,35 +36,52 @@ Results
 
 ![step0](reports/figures/testdata.png)
 
-#### Hidden-Cover
-**Rows correspond to Hidden, Cover, Hidden-Cover, 10*(Hidden-Cover) in order**
+#### 1) Hidden-Cover
+
+**Rows correspond to Hidden, Cover, Hidden-Cover, 10\*(Hidden-Cover) in order**
 
 ![hidden_cover](reports/figures/hidden_cover.png)
 
-#### Hidden-Secret
-**Rows correspond to Hidden, Secret, Hidden-Secret, 10*(Hidden-Secret) in order**
+#### 2) Hidden-Secret
+**Rows correspond to Hidden, Secret, Hidden-Secret, 10\*(Hidden-Secret) in order**
 
 ![hidden_cover](reports/figures/hidden_hide.png)
 
-#### Reveal-Secret
-**Rows correspond to Reveal, Secret, Reveal-Secret, 10*(Reveal-Cover) in order**
+#### 3) Reveal-Secret
+**Rows correspond to Reveal, Secret, Reveal-Secret, 10\*(Reveal-Cover) in order**
 
 ![hidden_cover](reports/figures/reveal_secret.png)
 
 ### Training Results
+
 **Rows correspond to: Secret, Cover, Hidden and Revealed Images in order**
 
-![Untrained](reports/figures/step0.png)
-<p style="text-align:center">Before Training</p>
+![Untrained](reports/figures/step0.png)  
+<p align="center">
+  Before Training
+</p>  
 
-![step0](reports/figures/step1000.png)
-<p style="text-align:center">Step 1000</p>
+---   
 
-![step0](reports/figures/step20000.png)
-<p style="text-align:center">Step 20000</p>
+![step0](reports/figures/step1000.png)  
+<p align="center">
+  Step 1000
+</p>  
 
-![step0](reports/figures/step30000.png)
-<p style="text-align:center">After Training</p>
+
+---   
+
+![step0](reports/figures/step20000.png)  
+<p align="center">
+  Step 20000
+</p>
+
+---   
+
+![step0](reports/figures/step30000.png)  
+<p align="center">
+  After Training
+</p>  
 
 
 
