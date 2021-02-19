@@ -7,10 +7,11 @@ Steganography
 
 Problem
 -------
-Hide a colorful image into another colorful image, then reveal the secret image as much as possible
+Hide a colorful image into another colorful image with minumum change, then reveal the secret image as much as possible
 
 Model
 -----
+![Model Archtecture](reports/figures/model_diag.png)
 [HidingNet](HidingNet.py) consists of hidingnet and revealing net.  
 Hidingnet contains skip connections to preserve spatial features.
 Revealnet consists of basic CNN layers and BatchNorm layers.
@@ -29,40 +30,43 @@ Pytorch, Numpy, Pillow, skimage
 
 Results
 -------
-### Training Data
-Rows correspond to: Secret, Cover, Hidden and Revealed Images
 
-![step0](reports/figures/step0.png)
-<p style="text-align:center">Step 0</p>
-
-![step0](reports/figures/step1000.png)
-<p style="text-align:center">Epoch 1</p>
-
-![step0](reports/figures/step20000.png)
-<p style="text-align:center">Epoch 5</p>
-
-![step0](reports/figures/step30000.png)
-<p style="text-align:center">Epoch 10</p>
-
-### Test Data
-Rows correspond to Secret, Cover, Hidden and Revealed Images
+### Test Results
+**Rows correspond to Secret, Cover, Hidden and Revealed Images in order**
 
 ![step0](reports/figures/testdata.png)
 
 #### Hidden-Cover
-Rows correspond to Hidden, Cover, Hidden-Cover, 10*(Hidden-Cover)
+**Rows correspond to Hidden, Cover, Hidden-Cover, 10*(Hidden-Cover) in order**
 
 ![hidden_cover](reports/figures/hidden_cover.png)
 
 #### Hidden-Secret
-Rows correspond to Hidden, Secret, Hidden-Secret, 10*(Hidden-Secret)
+**Rows correspond to Hidden, Secret, Hidden-Secret, 10*(Hidden-Secret) in order**
 
 ![hidden_cover](reports/figures/hidden_hide.png)
 
 #### Reveal-Secret
-Rows correspond to Reveal, Secret, Reveal-Secret, 10*(Reveal-Cover)
+**Rows correspond to Reveal, Secret, Reveal-Secret, 10*(Reveal-Cover) in order**
 
 ![hidden_cover](reports/figures/reveal_secret.png)
+
+### Training Results
+**Rows correspond to: Secret, Cover, Hidden and Revealed Images in order**
+
+![Untrained](reports/figures/step0.png)
+<p style="text-align:center">Before Training</p>
+
+![step0](reports/figures/step1000.png)
+<p style="text-align:center">Step 1000</p>
+
+![step0](reports/figures/step20000.png)
+<p style="text-align:center">Step 20000</p>
+
+![step0](reports/figures/step30000.png)
+<p style="text-align:center">After Training</p>
+
+
 
 References
 ----------
